@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI Edu 中小学 AI 与 Python 学习网站，包含 AI 实验室、分级课程与闯关式学习路径。" />
+    <title>AI Edu 中小学人工智能课堂</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+            },
+          },
+        },
+      };
+    </script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+
+    <script type="text/babel" src="./components/HeroSection.js"></script>
+    <script type="text/babel" src="./components/AILabDemo.js"></script>
+    <script type="text/babel" src="./components/CourseCard.js"></script>
+    <script type="text/babel" src="./components/CourseSystem.js"></script>
+    <script type="text/babel" src="./components/TeachingMode.js"></script>
+    <script type="text/babel" src="./components/LearningRoadmap.js"></script>
+    <script type="text/babel" src="./App.js"></script>
+  </body>
+</html>
